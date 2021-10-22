@@ -11,11 +11,13 @@
 body {
   font-family: "Righteous", cursive;
 }
-.tile.is-child  {
-  height: 100px
+.tile.is-parent  {
+  height: 200px
       }
 .img {
   border-radius: 25px;
+  width: 150px;
+  height: 150px;
       }
 </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
@@ -145,24 +147,24 @@ body {
   </div>
 </section>
     <div class="tile is-ancestor px-5">
-  <div class="tile is-parent">
+  <div class="tile is-parent" style="height: 200px">
     <article class="tile is-child box">
       <p class="title">One</p>
-       <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket" width="250px" height="250px">
+       <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket">
       <p class="subtitle">Subtitle</p>
     </article>
   </div>
   <div class="tile is-parent">
     <article class="tile is-child box">
       <p class="title">Two</p>
-       <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket" width="250px" height="250px">
+       <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket">
       <p class="subtitle">Subtitle</p>
     </article>
   </div>
   <div class="tile is-parent">
     <article class="tile is-child box">
       <p class="title">Three</p>
-       <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket" width="250px" height="250px">
+       <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="Girl in a jacket">
       <p class="subtitle">Subtitle</p>
     </article>
   </div>
